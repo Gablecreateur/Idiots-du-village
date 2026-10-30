@@ -1,0 +1,12 @@
+minecraft/cache/
+minecraft/saves/
+minecraft/xaero/
+minecraft/logs/
+minecraft/ESM/
+minecratf/local/
+minecraft/.mixin.out/
+minecraft/usernamecache.json
+minecraft/usercache.json
+minecraft/option.txt
+minecraft/ponders_watched.json
+minecraft/ponders_watched_azimuth.json
