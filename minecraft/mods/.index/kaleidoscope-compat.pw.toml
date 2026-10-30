@@ -1,0 +1,21 @@
+filename = 'kaleidoscope_compat-2.9.7-neoforge+mc1.21.1-Patch.2.jar'
+name = 'Kaleidoscope Compat'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'kaleidoscope_compat-2.9.7-neoforge+mc1.21.1-Patch.2.jar'
+
+[download]
+hash = '3a3c849e5629a604c90b36741ab379a0a2e5f871'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9118946
+project-id = 1580791
+
+[[x-prismlauncher-dependencies]]
+addonId = '1309203'
+type = 'REQUIRED'

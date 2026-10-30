@@ -1,0 +1,18 @@
+filename = 'JustEnoughResources-NeoForge-1.21.1-1.6.0.57.jar'
+name = 'Just Enough Resources (JER)'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'JustEnoughResources-NeoForge-1.21.1-1.6.0.57.jar'
+
+[download]
+hash = '780235af90127bd07bc168333add2ee7b02d5ea3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9311693
+project-id = 240630

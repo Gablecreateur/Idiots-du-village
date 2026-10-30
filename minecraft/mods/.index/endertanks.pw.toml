@@ -1,0 +1,21 @@
+filename = 'endertanks-neoforge-1.21.1-1.0.jar'
+name = 'EnderTanks'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'endertanks-neoforge-1.21.1-1.0.jar'
+
+[download]
+hash = 'b3836c12302d91526feae82d536244321b66abe3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6913812
+project-id = 59613
+
+[[x-prismlauncher-dependencies]]
+addonId = '71738'
+type = 'REQUIRED'

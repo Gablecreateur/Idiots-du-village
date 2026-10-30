@@ -1,0 +1,25 @@
+[22:02:34] [INIT] KubeJS 2101.7.2-build.377; MC 2101 NeoForge
+[22:02:34] [INIT] Loaded plugins:
+[22:02:34] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[22:02:34] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[22:02:34] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[22:02:34] [INIT] - io.github.mortuusars.exposure.neoforge.integration.kubejs.ExposureKubeJSPlugin
+[22:02:34] [INIT] - com.vomiter.kjscauto.KJSCAutoPlugin
+[22:02:34] [INIT] - com.bobvarioa.kjsbotanypots.KJSBotanyPotsPlugin
+[22:02:34] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[22:02:34] [INIT] - com.almostreliable.kubeaa.KubePlugin
+[22:02:34] [INIT] - dev.latvian.mods.kubejs.mekanism.MekanismKubeJSPlugin
+[22:02:34] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[22:02:34] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[22:02:34] [INIT] - com.rollylindenshnizzer.appliedkjs.AppliedKJSPlugin
+[22:02:34] [INIT] - dev.propulsionteam.propulsionsimulated.compat.kubejs.PropulsionKubeJSPlugin
+[22:02:34] [INIT] - dev.propulsionteam.propulsionsimulated.compat.kubejs.PropulsionKubeJSPlugin
+[22:02:34] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
+[22:02:34] [INIT] - com.github.ysbbbbbb.kaleidoscopecookery.compat.kubejs.ModKubeJSPlugin
+[22:02:34] [INIT] - com.chinaex123.kubejs_kaleidoscope.KubejsKaleidoscopePlugin
+[22:02:34] [INIT] - cn.breezeth.kaleidoscope_grilling.kubejs.GrillingKubeJSPlugin
+[22:02:35] [INFO] startup_scripts:main.js#2: Hello, World! (Loaded startup example script)
+[22:02:35] [INFO] Loaded script startup_scripts:main.js in 0.029 s
+[22:02:35] [INFO] Loaded 1/1 KubeJS startup scripts in 1.095 s with 0 errors and 0 warnings
+[22:02:35] [INFO] Validated 2 files in kubejs/assets/ in 1ms
+[22:02:35] [INFO] Validated 0 files in kubejs/data/ in 1ms

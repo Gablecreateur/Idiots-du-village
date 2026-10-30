@@ -1,0 +1,29 @@
+filename = 'ballistix-1.21.1-1.2.3.jar'
+name = 'Ballistix'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Ballistix 1.21.1-1.2.3'
+
+[download]
+hash = '080619a8cc9063ece9fcb38412111965bdb666ca'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9259921
+project-id = 443915
+
+[[x-prismlauncher-dependencies]]
+addonId = '318646'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1237904'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '316867'
+type = 'OPTIONAL'

@@ -1,0 +1,18 @@
+filename = 'common-storage-lib-neoforge-1.21.1-0.0.10.jar'
+name = 'Common Storage Lib'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '[NeoForge] Common Storage Lib 0.0.10'
+
+[download]
+hash = 'e0ba85038480d50a3816d5920014bfcccdbe7329'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8421542
+project-id = 1028211

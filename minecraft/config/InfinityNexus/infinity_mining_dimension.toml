@@ -1,0 +1,7 @@
+["Infinity Mining Dimension Common Configs"]
+	#X Location, Default 0
+	x = 0
+	#Y Location, Default 75
+	y = 75
+	#Z Location, Default 0
+	z = 0

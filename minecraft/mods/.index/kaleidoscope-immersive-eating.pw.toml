@@ -1,0 +1,25 @@
+filename = 'kaleidoscope_ImmersiveEating-neoforge1.21.1-1.5.5.jar'
+name = 'Kaleidoscope: Immersive Eating'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'kaleidoscope_ImmersiveEating-neoforge1.21.1-1.5.5.jar'
+
+[download]
+hash = 'bb27c11337a67791d9c3319ae369b8293960c28e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9312166
+project-id = 1659858
+
+[[x-prismlauncher-dependencies]]
+addonId = '1394201'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '388172'
+type = 'REQUIRED'

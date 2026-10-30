@@ -1,0 +1,18 @@
+filename = 'tacz-pack-upgrader-2.1.3.jar'
+name = 'TaCZ Pack Upgrader'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'TaCZ Pack Upgrader 2.1.3'
+
+[download]
+hash = '7b3f519278a7778cc82142023376c62b089c97b4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8387504
+project-id = 1353465

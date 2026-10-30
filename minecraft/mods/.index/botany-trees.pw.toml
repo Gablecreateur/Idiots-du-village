@@ -1,0 +1,25 @@
+filename = 'botanytrees-neoforge-1.21.1-21.1.7.jar'
+name = 'Botany Trees'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'botanytrees-neoforge-1.21.1-21.1.7.jar'
+
+[download]
+hash = '9ed861d8a2405cfa75a9ef677f9d99eb5deed73f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8188485
+project-id = 411357
+
+[[x-prismlauncher-dependencies]]
+addonId = '228525'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1023259'
+type = 'REQUIRED'

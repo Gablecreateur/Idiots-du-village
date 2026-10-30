@@ -1,0 +1,15 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"lrtactical:throwable","components":"{\"minecraft:custom_data\":{ThrowableId:\"gwg:shg_m15\"}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:leather"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"toolbelt:belt"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"toolbelt:pouch"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_things_and_misc:brass_speaker"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:cabbage"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kaleidoscope_cookery:caterpillar"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kaleidoscope_cookery:lettuce"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:lettuce"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"born_in_chaos_v1:diamond_termite_shard"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"voltaic:guidebook"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:mangrove_trapdoor"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,29 @@
+filename = 'create_radar-5.0-1.21.1.jar'
+name = 'Create: Radars'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'create_radar-5.0-1.21.1.jar'
+
+[download]
+hash = '767bf7eab1799ca18b5f696ddbf2d17fd6b027c6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9318048
+project-id = 1152836
+
+[[x-prismlauncher-dependencies]]
+addonId = '646668'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '258371'
+type = 'OPTIONAL'

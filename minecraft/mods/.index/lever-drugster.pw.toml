@@ -1,0 +1,18 @@
+filename = 'lever-drugster-1.8.8.jar'
+name = 'Lever drugster'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'lever-drugster-1.8.8.jar'
+
+[download]
+hash = '5a523e3966260bc85b3e4e0b3af966d0019126cb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8416778
+project-id = 1530992

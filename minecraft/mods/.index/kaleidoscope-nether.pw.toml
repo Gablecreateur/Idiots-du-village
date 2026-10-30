@@ -1,0 +1,21 @@
+filename = 'kaleidoscope_nether-1.1.4-neoforge+mc1.21.1.jar'
+name = 'Kaleidoscope Nether'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'kaleidoscope_nether-1.1.4-neoforge+mc1.21.1.jar'
+
+[download]
+hash = 'b860c9a32bcbb991aceed2effff1a1a8e6dbec68'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8328038
+project-id = 1417862
+
+[[x-prismlauncher-dependencies]]
+addonId = '1309203'
+type = 'REQUIRED'

@@ -1,0 +1,9 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:copper_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ballistix:thermobaric"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ballistix:nuclear"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ballistix:antimatter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ballistix:largeantimatter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ballistix:darkmatter"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

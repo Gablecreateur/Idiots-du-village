@@ -1,0 +1,21 @@
+filename = 'letsdo-vinery-neoforge-1.5.6.jar'
+name = "[Let's Do] Vinery"
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Vinery - 1.5.6 - NEOFORGE - 1.21.1'
+
+[download]
+hash = '2e2866ba9abdfff57509b291b76567054e1d5065'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9203990
+project-id = 704465
+
+[[x-prismlauncher-dependencies]]
+addonId = '419699'
+type = 'REQUIRED'

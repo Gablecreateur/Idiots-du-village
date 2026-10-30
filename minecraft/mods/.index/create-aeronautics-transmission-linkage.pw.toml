@@ -1,0 +1,18 @@
+filename = 'create_aeronautics_transmission_linkage-0.2.8.jar'
+name = 'Create Aeronautics: Transmission & Linkage'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'create_aeronautics_transmission_linkage-0.2.8.jar'
+
+[download]
+hash = 'bccaf90652905ae5f28dcc7e1134099d188ca020'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8790451
+project-id = 1548056

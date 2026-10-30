@@ -1,0 +1,21 @@
+filename = 'ToolBelt-1.21.1-2.2.10.jar'
+name = 'Tool Belt'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ToolBelt-1.21.1-2.2.10.jar'
+
+[download]
+hash = '96862e5d8df67d63b749fc15d18262f3736d1828'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8309722
+project-id = 260262
+
+[[x-prismlauncher-dependencies]]
+addonId = '411896'
+type = 'OPTIONAL'

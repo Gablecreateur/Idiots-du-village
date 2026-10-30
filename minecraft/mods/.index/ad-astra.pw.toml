@@ -1,0 +1,41 @@
+filename = 'adastra-1.21.1-1.16.26-neoforge.jar'
+name = 'Ad Astra'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[NeoForge] Ad Astra 1.16.26'
+
+[download]
+hash = 'b6c4560cc625a6847e016af576954ff1f0431d99'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8874894
+project-id = 635042
+
+[[x-prismlauncher-dependencies]]
+addonId = '570073'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '841890'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1028211'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '845833'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '714059'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '845832'
+type = 'OPTIONAL'

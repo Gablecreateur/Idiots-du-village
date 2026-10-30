@@ -1,0 +1,18 @@
+filename = 'moonlight-1.21.1-3.7.2-neoforge.jar'
+name = 'Moonlight Lib'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'moonlight-1.21.1-3.7.2-neoforge'
+
+[download]
+hash = '0da45e6bc941f4b9b18dda24f8d047431ddc7226'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9122548
+project-id = 499980

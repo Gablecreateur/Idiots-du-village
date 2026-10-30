@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"farm_and_charm:tomato"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:tomato"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kaleidoscope_cookery:tomato"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:kelp_roll"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
