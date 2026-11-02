@@ -68,8 +68,8 @@ ServerEvents.recipes(event => {
   event.smelting("tfmg:lead_ingot", "#c:dusts/lead")
   event.blasting("tfmg:lead_ingot", "#c:dusts/lead")
 
-  event.smelting("tfmg:lead_ingot", "#c:raw_material/lead")
-  event.blasting("tfmg:lead_ingot", "#c:raw_material/lead")
+  event.smelting("tfmg:lead_ingot", "#c:raw_materials/lead")
+  event.blasting("tfmg:lead_ingot", "#c:raw_materials/lead")
 
   //Steel Block
   event.remove({id: "mekanism:storgae_blocks/steel"})
