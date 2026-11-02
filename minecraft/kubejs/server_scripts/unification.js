@@ -7,11 +7,20 @@ ServerEvents.tags('item', event  => {
   //Steel Ingots - tfmg:steel_ingot
   event.remove('c:ingots/steel', ['createbigcannons:steel_ingot', 'mekanism:ingot_steel', 'ad_astra:steel_ingot'])
 
-  //Steel Nuggets - tfmg:steel_nugget
+  //Steel Nugget - tfmg:steel_nugget
   event.remove('c:nuggets/steel', ['mekanism:nugget_steel', 'ad_astra:steel_nugget', 'createbigcannons:steel_scrap'])
 
   //Steel Block - mekanism:block_steel
   event.remove('c:storage_blocks/steel', ['createbigcannons:steel_block', 'tfmg:steel_block', 'ad_astra:steel_block'])
+
+  //Cast Iron Nugget- tfmg:cast_iron_nugget
+  event.remove('c:nuggets/cast_iron', ['createbigcannons:cast_iron_nugget'])
+
+  //Lead Nugget - tfmg:lead_nugget
+  event.remove('c:nuggets/lead', ['mekanism:nugget_lead'])
+
+  //Lead Ingot - tfmg:lead_ingot
+  event.remove('c:ingots/lead', ['mekanism:ingot_lead'])
 
   //Tomato Seeds - farmersdelight:tomato_seeds
   event.remove('c:seed/tomato', ['kaleidoscope_cookery:tomato_seed', 'farm_and_charm:tomato_seeds'])
@@ -33,9 +42,10 @@ ServerEvents.tags('block', event  => {
 })
 
 //Gestion des recettes
-ServerEvents.recipes(event => {
-  //Steel Ingots - tfmg:steel_ingot
 
+ServerEvents.recipes(event => {
+
+//Steel Ingots - tfmg:steel_ingot
   event.remove({ id: "mekanism:storgae_blocks/steel" })
   event.remove({type : "minecraft:smelting", output : "mekanism:ingot_steel"})
   event.remove({type : "minecraft:blasting", output : "mekanism:ingot_steel"})
@@ -54,8 +64,16 @@ ServerEvents.recipes(event => {
     energy : 20
   })
 
+  //Lead Ingot
+  event.smelting("tfmg:lead_ingot", "#c:dusts/lead")
+  event.blasting("tfmg:lead_ingot", "#c:dusts/lead")
+
+  event.smelting("tfmg:lead_ingot", "#c:raw_material/lead")
+  event.blasting("tfmg:lead_ingot", "#c:raw_material/lead")
+
   //Steel Block
   event.remove({id: "mekanism:storgae_blocks/steel"})
   event.shapeless("mekanism:block_steel", ["9x #c:ingots/steel"])
+
 
 })
