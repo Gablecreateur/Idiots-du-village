@@ -22,16 +22,6 @@ ServerEvents.tags('item', event  => {
   //Lead Ingot - tfmg:lead_ingot
   event.remove('c:ingots/lead', ['mekanism:ingot_lead'])
 
-  //Tomato Seeds - farmersdelight:tomato_seeds
-  event.remove('c:seed/tomato', ['kaleidoscope_cookery:tomato_seed', 'farm_and_charm:tomato_seeds'])
-
-  //Tomato - kaleidoscope_cookery:tomato
-  event.remove('c:crops/tomato', ['farmersdelight:tomato', 'farm_and_charm:tomato'])
-  event.remove('c:vegetable/tomato', ['farmersdelight:tomato', 'farm_and_charm:tomato'])
-
-  //Rice - farmersdelight:rice
-  event.remove('c:crops/rice', ['actuallyadditions:rice', 'kaleidoscope_cookery:rice'])
-  event.remove('c:grain/rice', ['actuallyadditions:rice', 'kaleidoscope_cookery:rice'])
 })
 
 ServerEvents.tags('block', event  => {
@@ -48,7 +38,9 @@ ServerEvents.recipes(event => {
 //Steel Ingots - tfmg:steel_ingot
   event.remove({ id: "mekanism:storgae_blocks/steel" })
   event.remove({type : "minecraft:smelting", output : "mekanism:ingot_steel"})
-  event.remove({type : "minecraft:blasting", output : "mekanism:ingot_steel"})
+  event.remove({ type: "minecraft:blasting", output: "mekanism:ingot_steel" })
+  event.remove({ output : "ad_astra:steel_ingot"})
+  event.remove({ id: 'ad_astra:alloying/steel_ingot_from_alloying_iron_ingot_and_barrier' })
 
   event.shapeless("tfmg:steel_ingot", ["9x #c:nuggets/steel"])
   event.smelting("tfmg:steel_ingot", "#c:dusts/steel")
