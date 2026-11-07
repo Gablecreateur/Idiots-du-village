@@ -1,9 +1,14 @@
 
 ServerEvents.recipes(event => {
 
+  //Cobblestone
+  event.recipes.create.mixing('minecraft:cobblestone',[Fluid.of('minecraft:water',500),Fluid.of('minecraft:lava',500)])
+
   // Tuff Blocks
   event.recipes.create.filling('minecraft:tuff', [Fluid.of('minecraft:lava'), 'minecraft:stone'])
 
+  // Levitite
+  event.recipes.create.filling('aeronautics:levitite', [Fluid.of('aeronautics:levitite_blend'), 'minecraft:stone'])
 
   //Limestone
   event.remove({id:'tfmg:crushing/limestone'})
@@ -41,58 +46,62 @@ ServerEvents.recipes(event => {
       .transitionalItem('minecraft:stone') // Set the transitional item
       .loops(1) // Set the number of loops
 
-  //Sculk
-  /*
+
+  event.recipes.create.milling(CreateItem.of('minecraft:gunpowder',0.25),'minecraft:flint')
+
+  //Kaayu
+
   event.recipes.create.crushing(
     [
-      CreateItem.of('minecraft:raw_iron',0.02),
-      CreateItem.of('minecraft:raw_copper',0.02),
-      CreateItem.of('minecraft:raw_gold',0.02),
-      CreateItem.of('ad_astra:raw_desh',0.02),
-      CreateItem.of('ad_astra:raw_ostrum',0.02),
-      CreateItem.of('ad_astra:raw_calorite',0.02),
-      CreateItem.of('astralsorcery:raw_starmetal',0.02),
-      CreateItem.of('create:raw_zinc',0.02),
-      CreateItem.of('createpropulsion:pine_resin',0.02),
-      CreateItem.of('createpropulsion:raw_platinum',0.02),
-      CreateItem.of('tfmg:raw_lead',0.02),
-      CreateItem.of('tfmg:raw_nickel',0.02),
-      CreateItem.of('tfmg: raw_lithium',0.02),
-      CreateItem.of('mekanism: raw_osmium',0.02),
-      CreateItem.of('mekanism: raw_tin',0.02),
-      CreateItem.of('mekanism: raw_lead',0.02),
-      CreateItem.of('mekanism: raw_uranium',0.02),
-      CreateItem.of('mekmm: raw_silver',0.02)
-    ]
-    ,
-    'kubejs:kaayu')
-    */
+      CreateItem.of('minecraft:raw_iron',0.25),
+      CreateItem.of('minecraft:raw_copper',0.25),
+      CreateItem.of('minecraft:raw_gold', 0.25),
+      CreateItem.of('2x minecraft:redstone', 0.25)
+    ],
+    'kubejs:vanilla_kaayu')
 
-  event.custom({
-    type: 'create:crushing',
-    ingredients: [{ item: 'kubejs:kaayu' }],
-    results:     [
-      {id : 'minecraft:raw_iron', chance: 0.02},
-      {id : 'minecraft:raw_copper', chance: 0.02},
-      {id : 'minecraft:raw_gold', chance: 0.02},
-      {id : 'ad_astra:raw_desh', chance: 0.02},
-      {id : 'ad_astra:raw_ostrum', chance: 0.02},
-      {id : 'ad_astra:raw_calorite', chance: 0.02},
-      {id : 'astralsorcery:raw_starmetal', chance: 0.02},
-      {id : 'create:raw_zinc', chance: 0.02},
-      {id : 'createpropulsion:pine_resin', chance: 0.02},
-      {id : 'createpropulsion:raw_platinum', chance: 0.02},
-      {id : 'tfmg:raw_lead', chance: 0.02},
-      {id : 'tfmg:raw_nickel', chance: 0.02},
-      {id : 'tfmg:raw_lithium', chance: 0.02},
-      {id : 'mekanism:raw_osmium', chance: 0.02},
-      {id : 'mekanism:raw_tin', chance: 0.02},
-      {id : 'mekanism:raw_lead', chance: 0.02},
-      {id : 'mekanism:raw_uranium', chance: 0.02},
-      {id : 'mekmm:raw_silver', chance: 0.02}
-    ]
-  })
+  event.recipes.create.crushing(
+    [
+      CreateItem.of('ad_astra:raw_desh',0.33),
+      CreateItem.of('ad_astra:raw_ostrum',0.33),
+      CreateItem.of('ad_astra:raw_calorite', 0.33),
+    ],
+    'kubejs:space_kaayu')
 
+  event.recipes.create.crushing(
+    [
+      CreateItem.of('astralsorcery:raw_starmetal', 0.25),
+      CreateItem.of('astralsorcery:aquamarine', 0.25),
+      CreateItem.of('astralsorcery:rock_crystal', 0.25),
+      CreateItem.of('astralsorcery:attuned_rock_crystal', 0.25)
+    ],
+    'kubejs:astral_kaayu')
 
+  event.recipes.create.crushing(
+    [
+      CreateItem.of('create:raw_zinc',0.25),
+      CreateItem.of('createpropulsion:pine_resin',0.25),
+      CreateItem.of('createpropulsion:raw_platinum', 0.25),
+      CreateItem.of('2x minecraft:redstone', 0.25)
+    ],
+    'kubejs:engineering_kaayu')
+
+  event.recipes.create.crushing(
+    [
+      CreateItem.of('tfmg:raw_lead',0.33),
+      CreateItem.of('tfmg:raw_nickel',0.33),
+      CreateItem.of('tfmg:raw_lithium', 0.33)
+    ],
+    'kubejs:industrial_kaayu')
+
+  event.recipes.create.crushing(
+    [
+      CreateItem.of('mekanism:raw_osmium',0.20),
+      CreateItem.of('mekanism:raw_tin',0.20),
+      CreateItem.of('mekanism:raw_lead',0.20),
+      CreateItem.of('mekanism:raw_uranium', 0.20),
+      CreateItem.of('mekmm:raw_silver',0.20)
+    ],
+    'kubejs:technological_kaayu')
 
 })
