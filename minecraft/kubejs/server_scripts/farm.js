@@ -50,6 +50,7 @@ ServerEvents.recipes(event => {
   event.recipes.create.milling(CreateItem.of('minecraft:gunpowder',0.25),'minecraft:flint')
 
   //Kaayu
+  /*
 
   event.recipes.create.crushing(
     [
@@ -103,5 +104,6 @@ ServerEvents.recipes(event => {
       CreateItem.of('mekmm:raw_silver',0.20)
     ],
     'kubejs:technological_kaayu')
+  */
 
 })
