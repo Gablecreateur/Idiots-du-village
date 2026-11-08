@@ -10,6 +10,10 @@ ServerEvents.recipes(event => {
   // Levitite
   event.recipes.create.filling('aeronautics:levitite', [Fluid.of('aeronautics:levitite_blend'), 'minecraft:stone'])
 
+  // Gunpowder
+  event.recipes.create.milling(CreateItem.of('minecraft:gunpowder', 0.25), 'minecraft:flint')
+  event.recipes.create.milling(CreateItem.of('2x minecraft:gunpowder', 1), 'supplementaries:flint_block')
+
   //Limestone
   event.remove({id:'tfmg:crushing/limestone'})
   event.recipes.create.crushing(
@@ -46,11 +50,8 @@ ServerEvents.recipes(event => {
       .transitionalItem('minecraft:stone') // Set the transitional item
       .loops(1) // Set the number of loops
 
-
-  event.recipes.create.milling(CreateItem.of('minecraft:gunpowder',0.25),'minecraft:flint')
-
   //Kaayu
-
+/*
   event.recipes.create.crushing(
     [
       CreateItem.of('minecraft:raw_iron',0.25),
@@ -103,5 +104,6 @@ ServerEvents.recipes(event => {
       CreateItem.of('mekmm:raw_silver',0.20)
     ],
     'kubejs:technological_kaayu')
+  */
 
 })

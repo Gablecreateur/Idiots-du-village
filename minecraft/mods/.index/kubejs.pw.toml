@@ -1,19 +1,19 @@
-filename = 'kubejs-neoforge-2101.7.2-build.377.jar'
+filename = 'kubejs-neoforge-2101.7.2-build.381.jar'
 name = 'KubeJS'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'KubeJS NeoForge 2101.7.2-build.377'
+x-prismlauncher-version-number = 'KubeJS NeoForge 2101.7.2-build.381'
 
 [download]
-hash = '150c5d6efc09b969ac350ea205128dff832e0850'
+hash = 'c795402c73988ed0c03ce61767f9606aa1d606d8'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8843626
+file-id = 9396059
 project-id = 238086
 
 [[x-prismlauncher-dependencies]]

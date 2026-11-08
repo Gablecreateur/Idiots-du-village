@@ -1,19 +1,19 @@
-filename = 'mekmm-1.21.1-1.4.1.jar'
-name = 'Mekanism:More Machine'
+filename = 'mekmm-1.21.1-1.4.2.jar'
+name = 'Mekanism: MoreMachine'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'mekmm-1.21.1-1.4.1.jar'
+x-prismlauncher-version-number = 'mekmm-1.21.1-1.4.2.jar'
 
 [download]
-hash = '0b07480e12cb0f0d55283d9373495ee9db7ed010'
+hash = '7f5ad79707022186dfc5ffd0120150cabd3d333e'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8724947
+file-id = 9393169
 project-id = 1275257
 
 [[x-prismlauncher-dependencies]]
@@ -25,7 +25,7 @@ addonId = '246640'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = '1230085'
+addonId = '223794'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
@@ -33,13 +33,13 @@ addonId = '236307'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = '401955'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '223794'
+addonId = '1230085'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = '231951'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '401955'
 type = 'OPTIONAL'

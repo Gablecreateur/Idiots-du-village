@@ -1,18 +1,18 @@
-filename = 'guideme-21.1.20.jar'
+filename = 'guideme-21.1.22.jar'
 name = 'GuideME'
 side = 'server'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'GuideME 21.1.20'
+x-prismlauncher-version-number = 'GuideME 21.1.22'
 
 [download]
-hash = '3003020c170cc84ea307fa1d212d80268806a9be'
+hash = 'eb2f531c91566a0f119b4b3a3acd927b48b6b27e'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 9292538
+file-id = 9366366
 project-id = 1173950

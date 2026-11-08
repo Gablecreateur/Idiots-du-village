@@ -3,7 +3,6 @@ ServerEvents.tags('item', event  => {
 
   //Coal Coke - tfmg:coal_coke
   event.add("minecraft:coals", "tfmg:coal_coke")
-
 })
 
 
@@ -37,6 +36,16 @@ ServerEvents.recipes(event => {
 
   //Steel Block
   event.shapeless("mekanism:block_steel", ["9x #c:ingots/steel"])
+
+  event.custom(
+    {
+      "type":"mekanism:metallurgic_infusing",
+      "chemical_input":{"amount":180,"tag":"mekanism:carbon"},
+      "item_input":{"count":1,"item":"minecraft:iron_block"},
+      "output":{"count":1,"id":"mekanism:block_steel"},
+      "per_tick_usage":false
+    }
+ )
 
 
 })
