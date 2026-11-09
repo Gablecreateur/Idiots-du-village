@@ -51,12 +51,7 @@ ServerEvents.recipes(event => {
       .loops(1) // Set the number of loops
 
   //Kaayu
-<<<<<<< HEAD
-/*
-=======
   /*
-
->>>>>>> 3605c0f7e67e3380bca80e3b57e7430c6bdf1226
   event.recipes.create.crushing(
     [
       CreateItem.of('minecraft:raw_iron',0.25),
