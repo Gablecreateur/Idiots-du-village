@@ -9,6 +9,13 @@ ServerEvents.recipes(event => {
 
   // Levitite
   event.recipes.create.filling('aeronautics:levitite', [Fluid.of('aeronautics:levitite_blend'), 'minecraft:stone'])
+  event.recipes.create.filling('aeronautics:pearlescent_levitite', [Fluid.of('aeronautics:levitite_blend'), Ingredient.of('#minecraft:soul_fire_base_blocks')])
+
+  //Certus Quartz
+  event.recipes.create.mixing(['ae2:certus_quartz_crystal',CreateItem.of('ae2:certus_quartz_dust',0.5)],[Fluid.of('minecraft:water',1000),'ae2:certus_quartz_dust'])
+
+  //Netherrack
+  event.recipes.create.haunting('minecraft:netherrack', 'minecraft:stone')
 
   // Gunpowder
   event.recipes.create.milling(CreateItem.of('minecraft:gunpowder', 0.25), 'minecraft:flint')
