@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
     CreateItem.of('mekanism:nugget_lead', 0.1),
     CreateItem.of('mekanism:nugget_uranium', 0.1),
     CreateItem.of('mekmm:nugget_silver', 0.1),
-    CreateItem.of('mekanism:fluorite_gem')
+    CreateItem.of('mekanism:fluorite_gem',0.25)
   ],
     'create:limestone')
 
