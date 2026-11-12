@@ -1,0 +1,18 @@
+filename = 'igleelib-1.21.1-1.2.7.jar'
+name = "Iglee's Library"
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'igleelib-1.21.1-1.2.7.jar'
+
+[download]
+hash = 'c7e3aaffa02357e1c0b194419ba3f44565aadac8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7000755
+project-id = 541199

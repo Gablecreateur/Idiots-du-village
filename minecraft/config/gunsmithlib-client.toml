@@ -28,3 +28,10 @@ hud_ammo_type_icon_option = "STYLED"
 # Default: 128.0
 # Range: 0.0 ~ 1024.0
 papi_rangefinding_distance = 128.0
+#If true, fire control from TaCZ 7.0.0 will take effect when aiming at blocks.
+official_fire_control_on_blocks = true
+#Pass count for drop calculation calibration for official_fire_control_on_blocks.
+#Slightly affects client performance.
+# Default: 4
+# Range: > 0
+official_fire_control_on_block_calibration_passes = 4
