@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
   event.shapeless("minecraft:experience_bottle", ["minecraft:glass_bottle","3x minecraft:lapis_lazuli"])
 
   //Fluorite
-  event.recipe.create.hauting('minecraft:iron_ingot','mekanism_block_fluorite')
+  event.recipes.create.haunting('minecraft:iron_ingot','mekanism:block_fluorite')
 
   //Limestone
   event.remove({id:'tfmg:crushing/limestone'})

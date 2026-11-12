@@ -1,6 +1,6 @@
 // Visit the wiki for more info - https://kubejs.com/
 
-ServerEvent.recipes(event => {
+ServerEvents.recipes(event => {
 
   event.shaped(
     Item.of('minecraft:scaffolding', 1), // arg 1: output
@@ -16,5 +16,5 @@ ServerEvent.recipes(event => {
   )
 
   //Cut copper to copper blocks
-  event.stonecutting('minercaft:copper_block', 'minecraft:cut_copper')
+  event.stonecutting('minecraft:copper_block', 'minecraft:cut_copper')
 })

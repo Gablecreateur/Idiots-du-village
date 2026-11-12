@@ -12,7 +12,7 @@ ServerEvents.tags('item', event  => {
 
 ServerEvents.recipes(event => {
 //Gravel Bricks
-  event.recipes.create.splashing([CreateItem.of('minecraft:iron_nugget',0.12),CreateItem.of('minecraft:flint',0.25) ], '#c:gravels')
+  event.recipes.create.splashing([CreateItem.of('minecraft:iron_nugget',0.12),CreateItem.of('minecraft:flint',0.25) ], Ingredient.of('#c:gravels'))
 
 //Steel Ingots - tfmg:steel_ingot
 

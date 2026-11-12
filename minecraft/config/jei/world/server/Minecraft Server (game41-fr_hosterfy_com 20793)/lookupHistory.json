@@ -1,5 +1,8 @@
 [
   {"version":1},
+  {"ingredient":{"id":"farm_and_charm:cutting_board"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:cutting_board"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cookingforblockheads:cutting_board"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:glass_bottle"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"kaleidoscope_dim_wine:dragon_blood_bottle"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"kaleidoscope_grilling:empty_seasoning_bottle"},"type":"item_stack","bookmarkType":"INGREDIENT"},
@@ -96,8 +99,5 @@
   {"ingredient":{"id":"create:train_door"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ad_astra:desh_sliding_door"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"create:gearbox"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"create:cogwheel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"aeroworks:copycat_control_desk"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"aeroworks:copycat_control_stand"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"create_connected:copycat_slab"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"create:cogwheel"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]
