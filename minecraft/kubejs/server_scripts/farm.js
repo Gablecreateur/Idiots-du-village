@@ -21,6 +21,12 @@ ServerEvents.recipes(event => {
   event.recipes.create.milling(CreateItem.of('minecraft:gunpowder', 0.25), 'minecraft:flint')
   event.recipes.create.milling(CreateItem.of('2x minecraft:gunpowder', 1), 'supplementaries:flint_block')
 
+  //Bottle o' enchanting
+  event.shapeless("minecraft:experience_bottle", ["minecraft:glass_bottle","3x minecraft:lapis_lazuli"])
+
+  //Fluorite
+  event.recipe.create.hauting('minecraft:iron_ingot','mekanism_block_fluorite')
+
   //Limestone
   event.remove({id:'tfmg:crushing/limestone'})
   event.recipes.create.crushing(

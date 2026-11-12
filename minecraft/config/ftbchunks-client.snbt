@@ -138,68 +138,70 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:stray": true
-			"born_in_chaos_v1:corpse_fly": true
-			"minecraft:zombie": true
-			"alexsmobs:fly": true
-			"alexsmobs:capuchin_monkey": true
-			"minecraft:sheep": true
-			"born_in_chaos_v1:zombie_bruiser": true
-			"minecraft:skeleton": true
-			"minecraft:pig": true
-			"alexsmobs:emu": true
-			"minecraft:slime": true
-			"born_in_chaos_v1:spirit_guide_assistant": true
-			"born_in_chaos_v1:door_knight": true
-			"minecraft:rabbit": true
-			"born_in_chaos_v1:swarmer": true
-			"minecraft:cat": true
-			"born_in_chaos_v1:bonescaller": true
-			"born_in_chaos_v1:baby_spider": true
-			"born_in_chaos_v1:dread_hound": true
-			"born_in_chaos_v1:skeleton_demoman": true
-			"alexsmobs:snow_leopard": true
-			"alexsmobs:raccoon": true
-			"born_in_chaos_v1:thornshell_crab": true
-			"minecraft:trader_llama": true
-			"minecraft:creeper": true
-			"born_in_chaos_v1:lifestealer": true
-			"born_in_chaos_v1:baby_skeleton": true
-			"alexsmobs:blue_jay": true
-			"born_in_chaos_v1:dire_hound_leader": true
-			"minecraft:spider": true
-			"alexsmobs:toucan": true
-			"minecraft:cow": true
-			"born_in_chaos_v1:phantom_creeper": true
-			"minecraft:glow_squid": true
-			"born_in_chaos_v1:corpse_fish": true
-			"mekanismadditions:baby_creeper": true
-			"born_in_chaos_v1:fallen_chaos_knight": true
-			"alexsmobs:gazelle": true
-			"born_in_chaos_v1:mother_spider": true
-			"alexsmobs:gorilla": true
-			"born_in_chaos_v1:siamese_skeletons": true
-			"born_in_chaos_v1:decaying_zombie": true
-			"minecraft:pillager": true
-			"born_in_chaos_v1:nightmare_stalker": true
 			"alexsmobs:kangaroo": true
-			"minecraft:chicken": true
-			"alexsmobs:komodo_dragon": true
-			"born_in_chaos_v1:restless_spirit": true
-			"minecraft:parrot": true
-			"alexsmobs:cockroach": true
-			"born_in_chaos_v1:spiritof_chaos": true
-			"born_in_chaos_v1:zombie_clown": true
-			"minecraft:enderman": true
-			"mowziesmobs:foliaath": true
+			"born_in_chaos_v1:decaying_zombie": true
+			"born_in_chaos_v1:swarmer": true
+			"minecraft:slime": true
 			"minecraft:axolotl": true
-			"minecraft:bat": true
-			"born_in_chaos_v1:dark_vortex": true
-			"born_in_chaos_v1:decrepit_skeleton": true
+			"born_in_chaos_v1:mother_spider": true
+			"minecraft:cat": true
 			"minecraft:squid": true
-			"mekanismadditions:baby_skeleton": true
+			"minecraft:creeper": true
+			"minecraft:spider": true
+			"minecraft:sheep": true
+			"born_in_chaos_v1:thornshell_crab": true
+			"born_in_chaos_v1:decrepit_skeleton": true
+			"born_in_chaos_v1:skeleton_thrasher": true
+			"born_in_chaos_v1:siamese_skeletons": true
+			"alexsmobs:fly": true
 			"alexsmobs:leafcutter_ant": true
+			"alexsmobs:gorilla": true
 			"alexsmobs:bald_eagle": true
+			"minecraft:bat": true
+			"born_in_chaos_v1:nightmare_stalker": true
+			"minecraft:chicken": true
+			"minecraft:trader_llama": true
+			"minecraft:pig": true
+			"born_in_chaos_v1:bonescaller": true
+			"born_in_chaos_v1:fallen_chaos_knight": true
+			"alexsmobs:capuchin_monkey": true
+			"alexsmobs:emu": true
+			"born_in_chaos_v1:lifestealer": true
+			"mekanismadditions:baby_creeper": true
+			"born_in_chaos_v1:spirit_guide_assistant": true
+			"mowziesmobs:foliaath": true
+			"born_in_chaos_v1:zombie_bruiser": true
+			"born_in_chaos_v1:restless_spirit": true
+			"minecraft:cow": true
+			"born_in_chaos_v1:baby_spider": true
+			"minecraft:stray": true
+			"alexsmobs:raccoon": true
+			"alexsmobs:cockroach": true
+			"born_in_chaos_v1:door_knight": true
+			"alexsmobs:blue_jay": true
+			"born_in_chaos_v1:spiritof_chaos": true
+			"minecraft:zombie": true
+			"born_in_chaos_v1:zombie_clown": true
+			"born_in_chaos_v1:phantom_creeper": true
+			"minecraft:skeleton": true
+			"alexsmobs:komodo_dragon": true
+			"born_in_chaos_v1:skeleton_demoman": true
+			"born_in_chaos_v1:dark_vortex": true
+			"alexsmobs:toucan": true
+			"born_in_chaos_v1:corpse_fish": true
+			"born_in_chaos_v1:dread_hound": true
+			"minecraft:rabbit": true
+			"minecraft:enderman": true
+			"minecraft:parrot": true
+			"born_in_chaos_v1:baby_skeleton": true
+			"mekanismadditions:baby_skeleton": true
+			"minecraft:cave_spider": true
+			"born_in_chaos_v1:corpse_fly": true
+			"minecraft:pillager": true
+			"alexsmobs:snow_leopard": true
+			"alexsmobs:gazelle": true
+			"minecraft:glow_squid": true
+			"born_in_chaos_v1:dire_hound_leader": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
@@ -309,7 +311,7 @@
 		# Zoom distance of the minimap
 		# Default: 1.0
 		# Range: 1.0 ~ 4.0
-		zoom: 1.0d
+		zoom: 4.0d
 	}
 	waypoints: {
 		# Automatically remove death waypoints if closer than this many blocks away (distance of 0 disables removal)

@@ -14,4 +14,7 @@ ServerEvent.recipes(event => {
       B: '#c:rods/wooden'  //arg 3: the mapping object
     }
   )
+
+  //Cut copper to copper blocks
+  event.stonecutting('minercaft:copper_block', 'minecraft:cut_copper')
 })

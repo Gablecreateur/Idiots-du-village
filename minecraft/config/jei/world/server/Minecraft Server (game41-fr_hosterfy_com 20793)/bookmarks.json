@@ -57,5 +57,7 @@
   {"recipe":"create:crafting/logistics/redstone_contact","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
   {"recipe":"mekanism:steel_casing","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
   {"recipe":"tacz:gun_smith_table","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
-  {"recipe":"tacz:attachment_workbench","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
+  {"recipe":"tacz:attachment_workbench","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"toolbelt:belt","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"toolbelt:pouch","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
 ]

@@ -3,6 +3,7 @@ ServerEvents.tags('item', event  => {
 
   //Coal Coke - tfmg:coal_coke
   event.add("minecraft:coals", "tfmg:coal_coke")
+  event.add("c:gravels", "supplementaries:gravel_bricks")
 })
 
 
@@ -10,6 +11,8 @@ ServerEvents.tags('item', event  => {
 //Gestion des recettes
 
 ServerEvents.recipes(event => {
+//Gravel Bricks
+  event.recipes.create.splashing([CreateItem.of('minecraft:iron_nugget',0.12),CreateItem.of('minecraft:flint',0.25) ], '#c:gravels')
 
 //Steel Ingots - tfmg:steel_ingot
 
